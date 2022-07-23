@@ -7,8 +7,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 .page-container {
-  width: auto;
+  width: 100%;
 }
+
 a,
 button {
   transition: all 0.3s ease-in-out;
@@ -46,6 +47,7 @@ a:hover {
 }
 
 .bloc-sm {
+  width: 60%;
   padding: 20px 50px;
 }
 
@@ -205,7 +207,9 @@ a:hover {
   float: right;
   z-index: 1;
 }
-
+.navbar-contact {
+  margin-right: 50%;
+}
 .nav > li {
   float: left;
   margin-top: 4px;
@@ -362,7 +366,7 @@ a {
 }
 
 p {
-  font-size: 11px;
+  font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -448,7 +452,7 @@ h1 {
 }
 
 .bgc-atomic-tangerine {
-  background-color: #f3976c;
+  background-color: #8f340a;
 }
 
 .tc-white {
@@ -456,7 +460,7 @@ h1 {
 }
 
 .btn-atomic-tangerine {
-  background: #f3976c;
+  background: #8f340a;
   color: #ffffff !important;
 }
 
@@ -491,7 +495,25 @@ h1 {
 }
 
 .bg-presentation {
-  background-image: url("img/image-de-presentation.bmp");
+  background-image: url("img/image-de-presentation.jpg");
+}
+.row {
+  color: #fcfcfc;
+}
+.li-color {
+  color: black;
+}
+.contact-text {
+  width: 50%;
+  height: 100%;
+  padding-left: 30px;
+}
+.contact-text > p {
+  font-size: x-large;
+  line-height: 100px;
+}
+.footer > ul > li {
+  color: #fff;
 }
 
 @media (max-width: 1024px) {
@@ -504,6 +526,10 @@ h1 {
 @media (max-width: 992px) and (min-width: 768px) {
   .navbar .nav {
     max-width: 80%;
+  }
+  .contact-text > p {
+    font-size: large;
+    line-height: 90px;
   }
 }
 
@@ -608,6 +634,13 @@ h1 {
   }
   form {
     padding: 5px;
+  }
+  .contact-text {
+    width: 100%;
+  }
+  .contact-text > p {
+    font-size: 16px;
+    line-height: 24px;
   }
 }
 
