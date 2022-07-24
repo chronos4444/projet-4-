@@ -44,7 +44,14 @@ a:hover {
 
 .bloc-md {
   padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+/* .center-block {
+  width: auto;
+} */
 
 .bloc-sm {
   width: 60%;
@@ -102,7 +109,7 @@ a:hover {
 .d-bloc h2 a,
 .d-bloc h3 a,
 .d-bloc p a {
-  color: rgba(255, 255, 255, 0.6);
+  color: #fff;
 }
 
 .d-bloc .navbar a:hover,
@@ -233,6 +240,34 @@ a:hover {
 .navbar-toggle .icon-bar {
   background-color: rgba(0, 0, 0, 0.5);
   width: 26px;
+}
+.fixwidth {
+  width: 50%;
+}
+.subtitle {
+  color: #575757;
+  font-size: 16px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+.quotation {
+  font-size: 16px;
+  font-weight: 600;
+  width: 100%;
+  margin: 0;
+}
+.quotation-author {
+  font-size: 16px;
+  font-weight: 100;
+  opacity: 0.8;
+  margin: 0;
+}
+.flex-center-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
 }
 
 @media (min-width: 768px) {
@@ -456,7 +491,7 @@ h1 {
 }
 
 .tc-white {
-  color: #f3976c !important;
+  color: #bf8d75 !important;
 }
 
 .btn-atomic-tangerine {
@@ -491,17 +526,17 @@ h1 {
 }
 
 .bg-banniere {
-  background-image: url("img/agence-la-panthere.jpg");
+  background-image: url("img/agence-la-panthere.webp");
 }
 
 .bg-presentation {
-  background-image: url("img/image-de-presentation.jpg");
+  background-image: url("img/image-de-presentation.webp");
 }
 .row {
   color: #fcfcfc;
 }
 .li-color {
-  color: black;
+  color: rgb(0, 0, 0);
 }
 .contact-text {
   width: 50%;
@@ -511,9 +546,6 @@ h1 {
 .contact-text > p {
   font-size: x-large;
   line-height: 100px;
-}
-.footer > ul > li {
-  color: #fff;
 }
 
 @media (max-width: 1024px) {
@@ -533,13 +565,13 @@ h1 {
   }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .b-parallax {
     background-attachment: scroll;
   }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
   .b-parallax {
     background-attachment: scroll;
   }
@@ -641,6 +673,12 @@ h1 {
   .contact-text > p {
     font-size: 16px;
     line-height: 24px;
+  }
+  .fixwidth {
+    width: 100%;
+  }
+  .subtitle {
+    /* font-size: 12px; */
   }
 }
 
