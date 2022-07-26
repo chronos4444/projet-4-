@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postcss:build": "postcss in.css -o style.css",
-    "postcss:watch": "postcss in.css -o style.css"
+    "postcss:build": "postcss css/bootstrap.css -o newcss/bootstraps.css",
+    "postcss:watch": "postcss css/bootstrap.css -o newcss/bootstraps.css"
   },
   "keywords": [],
   "author": "",

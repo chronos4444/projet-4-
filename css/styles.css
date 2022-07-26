@@ -214,9 +214,6 @@ a:hover {
   float: right;
   z-index: 1;
 }
-.navbar-contact {
-  margin-right: 50%;
-}
 .nav > li {
   float: left;
   margin-top: 4px;
@@ -259,22 +256,8 @@ a:hover {
 .quotation-author {
   font-size: 16px;
   font-weight: 100;
-  opacity: 0.9;
+  opacity: 0.8;
   margin: 0;
-}
-.flex-center-column {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin: 0;
-}
-.img-responsive {
-  width: 100%;
-  height: auto;
-}
-.list {
-  padding: 10px 0 0 15px;
 }
 
 @media (min-width: 768px) {
@@ -292,20 +275,8 @@ a:hover {
   margin-bottom: 20px;
 }
 
-.mg-lg {
-  margin-top: 10px;
-  margin-bottom: 40px;
-}
-
 .btn {
   margin: 0 5px 5px 0;
-}
-
-.btn-d,
-.btn-d:hover,
-.btn-d:focus {
-  color: #fff;
-  background: rgba(0, 0, 0, 0.3);
 }
 
 button {
@@ -339,21 +310,6 @@ button {
 .form-control {
   border-color: rgba(0, 0, 0, 0.1);
   box-shadow: none;
-}
-
-.scrollToTop {
-  width: 40px;
-  height: 40px;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  opacity: 0;
-  z-index: 500;
-  transition: all 0.3s ease-in-out;
-}
-
-.scrollToTop span {
-  margin-top: 6px;
 }
 
 a[data-lightbox] {
@@ -524,10 +480,6 @@ h1 {
   border-color: #364577 !important;
 }
 
-.bg-dots-bg {
-  background-image: url("img/dots-bg.png");
-}
-
 .bg-lines-h2-bg {
   background-image: url("img/lines-h2-bg.png");
 }
@@ -541,9 +493,6 @@ h1 {
 }
 .row {
   color: #fcfcfc;
-}
-.li-color {
-  color: rgb(0, 0, 0);
 }
 .contact-text {
   width: 50%;

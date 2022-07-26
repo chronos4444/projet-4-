@@ -1,3 +1,9 @@
+const purgecss = require("@fullhuman/postcss-purgecss");
+
 module.exports = {
-  plugins: [require("postcss-nested")],
+  plugins: [
+    purgecss({
+      content: ["./*.html"],
+    }),
+  ],
 };
