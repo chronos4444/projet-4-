@@ -16,11 +16,16 @@ button {
   outline: none !important;
 }
 
+.icon-bar {
+  width: 10%;
+}
 a:hover {
   text-decoration: none;
   cursor: pointer;
 }
-
+.sr-only {
+  visibility: hidden;
+}
 .bloc {
   width: 100%;
   clear: both;
@@ -85,7 +90,7 @@ a:hover {
 }
 
 .texture-paper::before {
-  background: url("img/texture-paper.png");
+  background: url("img/texture-paper.webp");
   background-size: 280px 280px;
 }
 
@@ -276,6 +281,16 @@ a:hover {
 .list {
   padding: 10px 0 0 15px;
 }
+.footer-title {
+  margin-bottom: 20px;
+}
+.footer-end-text {
+  padding: 20px 0px 8px 0px;
+}
+.footer-icon {
+  margin-bottom: 10px;
+  height: 16px;
+}
 
 @media (min-width: 768px) {
   .site-navigation {
@@ -364,8 +379,8 @@ a[data-lightbox] {
 
 a[data-lightbox]:hover::before {
   content: "+";
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
-    Helvetica, Arial;
+  font-family: HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue,
+    Helvetica, Arial, Georgia, serif;
   font-size: 32px;
   width: 50px;
   height: 50px;
@@ -394,7 +409,7 @@ p,
 label,
 .btn,
 a {
-  font-family: "helvetica";
+  font-family: helvetica, Georgia, serif;
   font-weight: 400;
   color: #575757 !important;
 }
@@ -418,7 +433,7 @@ p {
 
 .h1 {
   font-size: 20px;
-  font-family: "Open Sans";
+  font-family: Open Sans, Georgia, serif;
 }
 
 .cta-hero {
@@ -465,6 +480,25 @@ h1 {
 .white {
   color: #ffffff !important;
 }
+.partner-section {
+  padding-bottom: 20px;
+}
+.list-partner {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10px 30px 0px 30px;
+}
+.partner {
+  line-height: 20px;
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+}
 
 .portfolio-thumb {
   margin-bottom: 24px;
@@ -498,7 +532,7 @@ h1 {
 }
 
 .tc-white {
-  color: #bf8d75 !important;
+  color: #ffbe9f !important;
 }
 
 .btn-atomic-tangerine {
@@ -687,6 +721,12 @@ h1 {
   /* .subtitle {
     font-size: 12px; 
   } */
+}
+.footer-icon {
+  margin-bottom: 10px;
+  height: 16px;
+  display: flex;
+  justify-content: center;
 }
 
 @media (max-width: 400px) {

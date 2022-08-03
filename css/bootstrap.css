@@ -24,11 +24,6 @@ a {
   background-color: transparent;
 }
 
-a:active,
-a:hover {
-  outline: 0;
-}
-
 h1 {
   margin: 0.67em 0;
   font-size: 2em;
@@ -36,10 +31,6 @@ h1 {
 
 img {
   border: 0;
-}
-
-svg:not(:root) {
-  overflow: hidden;
 }
 
 button,
@@ -65,12 +56,6 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-  padding: 0;
-  border: 0;
-}
-
 input {
   line-height: normal;
 }
@@ -80,47 +65,6 @@ textarea {
 }
 
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
-
-@media print {
-  *,
-  :after,
-  :before {
-    color: #000 !important;
-    text-shadow: none !important;
-    background: 0 0 !important;
-    -webkit-box-shadow: none !important;
-    box-shadow: none !important;
-  }
-  a,
-  a:visited {
-    text-decoration: underline;
-  }
-  a[href]:after {
-    content: " (" attr(href) ")";
-  }
-  img {
-    page-break-inside: avoid;
-  }
-  img {
-    max-width: 100% !important;
-  }
-  h2,
-  h3,
-  p {
-    orphans: 3;
-    widows: 3;
-  }
-  h2,
-  h3 {
-    page-break-after: avoid;
-  }
-  .navbar {
-    display: none;
-  }
-  .label {
-    border: 1px solid #000;
-  }
-}
 
 @font-face {
   font-family: "Glyphicons Halflings";
@@ -173,18 +117,6 @@ a {
   text-decoration: none;
 }
 
-a:focus,
-a:hover {
-  color: #23527c;
-  text-decoration: underline;
-}
-
-a:focus {
-  outline: thin dotted;
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px;
-}
-
 img {
   vertical-align: middle;
 }
@@ -193,17 +125,6 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-}
-
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
 }
 
 .h1,
@@ -573,8 +494,10 @@ input[type="submit"].btn-block {
 
 .navbar-toggle {
   position: relative;
+  bottom: 60px;
+  left: 80px;
   float: right;
-  padding: 9px 10px;
+  padding: 0px 10px;
   margin-top: 8px;
   margin-right: 15px;
   margin-bottom: 8px;
