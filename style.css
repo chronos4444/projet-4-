@@ -16,6 +16,9 @@ button {
   outline: none !important;
 }
 
+.hidden-title {
+  visibility: hidden;
+}
 .icon-bar {
   width: 10%;
 }
