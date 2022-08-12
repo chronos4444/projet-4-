@@ -688,6 +688,10 @@ h1 {
   }
 }
 @media (max-width: 767px) {
+  .footer-end-text {
+    text-align: center;
+    font-size: 13px;
+  }
   .banniere {
     max-width: 97%;
   }
